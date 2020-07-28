@@ -20,4 +20,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::resource('article', 'ArticleController');
+
+Route::get('/article', 'ArticleController@index');
+Route::get('/article/create', 'ArticleController@create')->name('article.create')->middleware('role:admin|writer');

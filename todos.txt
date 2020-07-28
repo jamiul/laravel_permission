@@ -1,4 +1,0 @@
-Today's Task:
- - Make Article controller (Done)
- - Make model and route.
- - Design create, edit, view pages.
