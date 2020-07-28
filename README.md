@@ -1,14 +1,15 @@
 ## Documentation, Installation, and Usage Instructions
-- Download dump20200728.sql and import it
-- Plese see todos.html for details
+- Clone the project.
+- Download dump20200728.sql and import it.
 
 ## Roles and Permission
- # four roles:
+- In this project i have used four roles and three permission
+ ## Four roles:
  - writer:  can write and edit post.
  - editor: can edit post.
  - publisher: can publish post.
  - admin: can do anything.
- # three permission:
+ ## Three permission:
  - write post
  - edit post
  - publish post
